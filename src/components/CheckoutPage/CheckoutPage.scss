@@ -1,0 +1,180 @@
+.catalogue__nav {
+    background-color: #f8f3f4;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+
+  .catalogue__nav__info {
+    padding-left: 228px;
+    padding-right: 230px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .catalogue__nav__title {
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #f16d7f;
+  }
+  .catalogue__nav__breadcrumbs-ul {
+    list-style: none;
+    display: flex;
+  }
+  .catalogue__nav__breadcrumbs-li:not(:last-child)::after {
+    content: "/";
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #636363;
+  }
+  .catalogue__nav__breadcrumbs-link {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #636363;
+  }
+  .catalogue__nav__breadcrumbs-li:last-child .catalogue__nav__breadcrumbs-link {
+    font-weight: 700;
+    color: #f16d7f;
+  }
+
+
+.checkout {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding-top: 46px;
+  }
+  .checkout__ship-adr__flex {
+    padding-top: 39px;
+    padding-left: 35px;
+    display: flex;
+    flex-direction: row;
+    gap: 291px;
+  }
+  .checkout__flexline {
+    border-bottom: 1px solid #e8e8e8;
+  }
+  .checkout__flexline:hover {
+    background-color: #fbfbfb;
+  }
+  .checkout__summary {
+    width: 1200px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    list-style-type: none;
+    font-family: Lato;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+  }
+  .checkout__text {
+    padding-top: 13px;
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #222222;
+  }
+  .checkout__fa-instructions {
+    margin-top: 15px;
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #b3b2b2;
+  }
+  .checkout__instructions {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #b3b2b2;
+  }
+  .checkout__requiredText {
+    font-family: Lato;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #ff0d0d;
+  }
+  .checkout__input {
+    margin-top: 16px;
+    margin-bottom: 22px;
+    width: 390px;
+    height: 45px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+  }
+  .checkout__radio-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .checkout__radio {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  .checkout__radio-text {
+    font-family: Lato;
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #222222;
+  }
+  .checkout__button {
+    margin-top: 32px;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4a4a4a;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    width: 180px;
+    height: 50px;
+  }
+  .checkout__button:hover {
+    color: #f16d7f;
+    border: 1px solid #f16d7f;
+  }
+  .checkout__forgotlink {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #222222;
+    padding-bottom: 14px;
+  }
+  .checkout__login-forgot {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: self-end;
+    gap: 32px;
+  }

@@ -1,0 +1,43 @@
+.header {
+    max-width: 1600px;
+    min-height: 75px;
+    display: flex;
+    flex: wrap;
+    background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_left{
+    display: flex;
+    flex: wrap;
+    gap: 41px;
+}
+
+.header_right{
+    display: flex;
+    gap: 33px;
+}
+
+.cart-ellipse {
+    position: absolute;
+    margin-left: -45px;
+}
+
+.cart-ellipse-morethan10 {
+    position: absolute;
+    margin-left: -45px;
+    scale: 140%;
+}
+
+.cart-ellipse-text {
+    position: absolute;
+    color: white;
+    margin-left: -40px;
+}
+
+.cart-ellipse-text-morethan10 {
+    position: absolute;
+    color: white;
+    margin-left: -45px;
+}

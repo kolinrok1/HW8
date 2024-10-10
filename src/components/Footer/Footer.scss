@@ -1,0 +1,224 @@
+
+.upper_footer_part {
+    background-color: #222224;
+}
+
+.upper_footer_figures {
+    display: flex;
+    max-width: 1140px;
+    gap: 30px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding-top: 104px;
+    padding-bottom: 104px;
+}
+
+.upper_footer_figure_element {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.upper_footer_img{
+    padding-bottom: 25px;
+}
+
+.upper_footer_heading {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FBFBFB;
+    padding-bottom: 16px;
+}
+
+.upper_footer_description {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FBFBFB; 
+    width: 102%; 
+    opacity: 0.8;
+}
+
+.central_footer_part{
+    background-color: #F4F4F4B2;
+    min-height: 446px;
+}
+
+.central_footer_part_image_bg{
+    background-image: url('./Footer bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    min-height: 448px;
+    width: 1600px;
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
+.central_footer_content {
+    position: relative;
+	z-index: 1;
+    top: 97px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.central_footer_part_grid_left{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.central_footer_part_quote{
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.central_footer_part_grid_right{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.central_footer_part_description_bald {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.central_footer_part_description{ 
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.input_field_plus_button {
+    display: table;
+}
+
+.button_input_field {
+    background-color: #E1E1E1;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 49px;
+    width: 256px;
+    border-radius: 50px 0px 0px 50px;
+    border-color: transparent;
+    
+}
+
+.button_input_field::placeholder{
+    padding-left: 22px;
+}
+
+.subscribe_button {
+    background-color: #E05C6E;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    height: 55px;
+    width: 100px;
+    color: #FFFFFF;
+    border-radius: 0px 50px 50px 0px;
+    border-color: transparent;
+}
+
+.subscribe_button:hover{
+    background-color: #FFFFFF;
+    color: #E05C6E;
+
+}
+
+.down_footer_part {
+    background-color: #222224;
+    display: flex;
+    min-height: 79px;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.copyright_inscription {
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.social_network_icon {
+    position: relative;
+    z-index: 2;
+    min-height: 15px;
+
+}
+
+.square_social_networks {
+    position: relative;
+    z-index: 0;
+    width: 32px;
+    height: 32px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social_networks{
+    display: flex;
+    gap: 8px;
+}
+
+.square_social_networks:hover {
+    background-color: #F16D7F;
+}
+
+.social_network_icon:hover {
+    stroke: #FFFFFF;
+    fill: #FFFFFF;
+}

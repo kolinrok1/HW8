@@ -1,0 +1,53 @@
+.catalogue__nav {
+    background-color: #f8f3f4;
+  }
+
+  .container {
+    margin: 0 auto;
+    max-width: 1600px;
+  }
+  .catalogue__nav__info {
+    padding-left: 228px;
+    padding-right: 230px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .catalogue__nav__title {
+    font-family: Lato;
+    font-size: 24px;
+    line-height: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #f16d7f;
+  }
+  .catalogue__nav__breadcrumbs-ul {
+    list-style: none;
+    display: flex;
+  }
+  .catalogue__nav__breadcrumbs-li:not(:last-child)::after {
+    content: "/";
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #636363;
+  }
+  .catalogue__nav__breadcrumbs-link {
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #636363;
+  }
+  .catalogue__nav__breadcrumbs-li:last-child .catalogue__nav__breadcrumbs-link {
+    font-weight: 700;
+    color: #f16d7f;
+  }

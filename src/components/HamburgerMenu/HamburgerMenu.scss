@@ -1,0 +1,56 @@
+.hamburger-menu_box {
+    position: relative;
+    float: left;
+}
+
+.hamburger-menu_hover {
+    position: absolute;
+    left: -620px;
+    top: 41px;
+    width: 232px;
+    max-height: 634px;
+    margin-left: calc(50% + 570px);
+    background-color: #FFFFFF;
+    box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
+    display: block;
+}
+
+
+.hamburger-menu_heading {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;   
+    padding-left: 33px;
+}
+
+.hamburger-menu_category{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #F16D7F;
+    padding-left: 32px;
+}
+
+.hamburger-menu_li {
+    list-style-type: none;
+    padding-left: 54px;
+    text-align: left;
+}
+
+.hamburger-menu_subcategory {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #6F6E6E;
+    
+}

@@ -1,0 +1,190 @@
+.brand{
+    max-width: 1600px;
+    display: flex;
+    flex: wrap;
+    gap:63px;
+    background-color: #F1E4E6;
+    text-align: left;
+}
+
+.brand_left {
+    max-width: 50%;
+}
+
+img {
+    max-width: 100%;
+  }
+
+.brand_right {
+    margin-top: 290px;
+    max-height: 95px;
+    margin-top: 15%;
+    border-left: 12px solid #F16D7F;
+    padding-left: 16px;
+    
+}
+
+.upper_brand_inscription {
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.brand_inscription {
+    font-family: Lato;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.sections{
+    padding-top: 65px;
+    padding-bottom: 96px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    
+}
+
+.section1{
+    background-color: #211616B2;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section1:hover {
+    background-color: transparent;
+}
+
+.section2{
+    background-color: #211616B2;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section2:hover {
+    background-color: transparent;
+}
+
+.section3{
+    background-color: #211616B2;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section3:hover {
+    background-color: transparent;
+}
+
+.section4 {
+    background-color: #211616B2;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section4:hover {
+    background-color: transparent;
+}
+
+.upper_sections_inscription {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 22px;
+    letter-spacing: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FFFFFF;
+}
+
+.big_sections_inscription {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#F16D7F;
+}
+
+.heading_before_catalogue { 
+    margin-left: 44.3125%;
+    color: #222222;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.description_before_catalogue {
+    margin-left: 39.5%;
+    margin-bottom: 48px;
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.catalogue_block{
+    max-width: 1140px;
+}
+
+.catalogue {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.catalogue_button {
+    margin-top:58px;
+    margin-bottom: 50px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    background-color: #F26376;
+    border-color: #F26376;
+    width: 212px;
+    height: 48px;
+    text-align: center;
+}
+
+.catalogue_button:hover{
+    color: #F26376;
+    border-color: #F26376;
+    background-color: #FFFFFF;
+    
+}
